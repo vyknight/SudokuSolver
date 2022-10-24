@@ -1,0 +1,10 @@
+My intentions with this project is to create a sudoku solver algorithm that would first use the steps I would use as a
+Sudoku player before using a conventional algorithm.
+
+Human player procedures:
+Scan each square for possible numbers, fill in whichever value is guaranteed
+Create a sub grid for all the possible values for each square, if there are squares that are guaranteed to not be of the
+value we're searching for and use these blocked off squares for scanning.
+Repeat the above two steps until the grid is complete or frozen.
+
+Then use one of the traditional algorithms to finish off the rest.
